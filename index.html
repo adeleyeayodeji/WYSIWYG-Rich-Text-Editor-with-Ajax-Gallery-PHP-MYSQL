@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Summernote + Ajax Gallery</title>
+    <!-- include jquery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- include libs stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- include summernote -->
+    <link rel="stylesheet" href="dist/summernote-bs4.css">
+    <script type="text/javascript" src="dist/summernote-bs4.js"></script>
+
+    <link rel="stylesheet" href="dist/example.css">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#summernote').summernote({
+                height: 300,
+                tabsize: 2
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Editor + Ajax Gallery</h1>
+        <p>
+            <span class="badge badge-success">Summernote 0.8.16</span>
+            <span class="badge badge-primary">jQuery v3.4.1</span>
+            <span class="badge badge-info">Bootstrap v4.4.1</span>
+            <span class="badge badge-danger">Custom Gallery</span>
+            <span class="badge badge-primary">Code is F U N</span>
+        </p>
+        <form action="" method="post" class="formhome">
+            <textarea id="summernote" name="editordata" style="display:none;"><p></p><p></p><h1 align="center">Writing&nbsp; code is fun</h1><center><img style="width: 50%;" src="http://adeleyeayodeji.com/ajaxgallery/image/170427-637199537009510295-16x9.jpg"></center><p></p><p align="center">Anybody can code<br></p><p></p><center><br></center><br><p></p><p></p></textarea>
+            <button class="btn btn-primary mt-2">Preview Post</button>
+            <button class="btn btn-secondary mt-2 float-right">Download Source Code</button>
+        </form>
+        <div class="container">
+            <div class="content" id="bodywa">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/core.js"></script>
+</body>
+
+</html>
