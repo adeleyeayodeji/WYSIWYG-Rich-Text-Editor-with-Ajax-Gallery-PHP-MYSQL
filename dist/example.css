@@ -1,0 +1,194 @@
+body {
+    margin-top: 1rem;
+}
+
+.gallerypic2 {
+    margin: 2px;
+    object-fit: cover;
+    object-position: center top;
+    border: 1px solid #b7b7b7;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.gallerypic2:hover {
+    box-shadow: 1px 2px 5px 0px black;
+}
+
+.gallerypic2:active {
+    background: #595959;
+}
+
+.previewimg {
+    height: 130px;
+    width: 130px;
+    margin: 2px;
+    object-fit: cover;
+    object-position: center top;
+    border: 1px solid #b7b7b7;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.filename_preview {
+    color: black;
+    word-wrap: break-word;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+.preview_header {
+    font-size: initial;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.preview_img_me {
+    height: 120px;
+    display: block;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.bodywa {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px -1px black;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .gallerypic2 {
+        width: 100px;
+        height: 100px;
+    }
+    #detailimg2 {
+        margin-left: -28px;
+    }
+    .preview_header {
+        font-size: 11px;
+        margin-top: 1px;
+    }
+    .preview_img_me {
+        height: 70px;
+        width: 97px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .deletebtn {
+        font-size: 10px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .gallerypic2 {
+        width: 100px;
+        height: 100px;
+    }
+    #detailimg2 {
+        margin-left: -28px;
+    }
+    .preview_header {
+        font-size: 11px;
+        margin-top: 1px;
+    }
+    .preview_img_me {
+        height: 70px;
+        width: 97px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .deletebtn {
+        font-size: 10px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .gallerypic2 {
+        width: 100px;
+        height: 100px;
+    }
+    #detailimg2 {
+        margin-left: -28px;
+    }
+    .preview_header {
+        font-size: 11px;
+        margin-top: 1px;
+    }
+    .preview_img_me {
+        height: 70px;
+        width: 97px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .deletebtn {
+        font-size: 11px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .gallerypic2 {
+        width: 130px;
+        height: 130px;
+    }
+    #detailimg2 {
+        margin-left: 0px;
+    }
+    .preview_header {
+        font-size: initial;
+        margin-top: 15px;
+    }
+    .preview_img_me {
+        height: 120px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .deletebtn {
+        font-size: 11px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .gallerypic2 {
+        width: 130px;
+        height: 130px;
+    }
+    #detailimg2 {
+        margin-left: 0px;
+    }
+    .preview_header {
+        font-size: initial;
+        margin-top: 15px;
+    }
+    .preview_img_me {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .deletebtn {
+        font-size: 11px;
+    }
+}
+
+.dropzone {
+    background: #1a1746;
+}
